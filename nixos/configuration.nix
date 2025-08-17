@@ -57,6 +57,7 @@
     git
     micro
     wl-clipboard
+    kakoune
     
     # Applications
     librewolf
@@ -96,7 +97,7 @@
   services.samba = {
     enable = true;
     openFirewall = true;
-    shares = {
+    settings = {
       shared = {
         path = "/home/q/shared";
         "read only" = "no";

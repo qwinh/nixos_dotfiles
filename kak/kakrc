@@ -1,0 +1,13 @@
+hook global InsertCompletionShow .* %{
+    map window insert <tab> <c-n>
+}
+
+hook global InsertCompletionHide .* %{
+    unmap window insert <tab>
+}
+
+# Copy selection to clipboard
+map global normal <c-c> '<a-|>wl-copy<ret>'
+# Paste from clipboard
+map global normal <c-v> '!wl-paste<ret>'
+map global insert <c-v> '<a-;>!wl-paste<ret>'
