@@ -1,0 +1,22 @@
+# Cache and temporary files
+**/cache/
+**/Cache/
+**/.cache/
+**/logs/
+**/log/
+**/*~
+**/.*~
+**/*.tmp
+**/*.swp
+**/*.bak
+
+# Runtime/state files
+pulse/cookie
+micro/buffers/
+micro/backups/
+btop/btop.log
+
+# Session/history files
+**/history
+**/sessions/
+**/session/
